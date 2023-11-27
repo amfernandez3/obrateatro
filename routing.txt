@@ -1,0 +1,30 @@
+Crear actor:
+
+Método: POST
+Ruta: /actores
+Ejemplo: POST /actores
+Obtener todos los actores:
+
+Método: GET
+Ruta: /actores
+Ejemplo: GET /actores
+Obtener un actor por ID:
+
+Método: GET
+Ruta: /actores/{actor_id}
+Ejemplo: GET /actores/1
+Actualizar actor por ID:
+
+Método: PUT o PATCH
+Ruta: /actores/{actor_id}
+Ejemplo: PUT /actores/1
+Eliminar actor por ID:
+
+Método: DELETE
+Ruta: /actores/{actor_id}
+Ejemplo: DELETE /actores/1
+Obtener información sobre una obra y un actor en particular:
+
+Método: GET
+Ruta: /obra/{id_obra}/{id_actor}
+Ejemplo: GET /obra/123/1
